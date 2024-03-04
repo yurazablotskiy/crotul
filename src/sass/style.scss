@@ -1,0 +1,20 @@
+@import 'libs/bootstrap-reboot.min';
+
+@import 'base/variables';
+@import 'base/mixins';
+
+* {
+   font-family: sans-serif;
+   margin: 0;
+   padding: 0;
+}
+
+.container {
+   width: 1280px;
+   margin: 0 auto;
+}
+
+@import 'blocks/promo';
+@import 'blocks/pricing';
+
+@import 'blocks/media';
